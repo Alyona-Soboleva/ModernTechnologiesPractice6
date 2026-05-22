@@ -1,0 +1,39 @@
+C:\Users\242770\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=54000:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242770\IdeaProjects\ModernTechnologiesPractice6\part1\p1_1\target\classes;C:\Users\242770\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\242770\.m2\repository\org\hibernate\orm\hibernate-core\6.4.0.Final\hibernate-core-6.4.0.Final.jar;C:\Users\242770\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\242770\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\242770\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\242770\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\242770\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\242770\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\242770\.m2\repository\net\bytebuddy\byte-buddy\1.14.7\byte-buddy-1.14.7.jar;C:\Users\242770\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\242770\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\242770\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\242770\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\242770\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\242770\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\242770\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\242770\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\242770\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar com.movies.MovieJDBC
+✅ Подключение к базе данных установлено!
+
+✅ Таблица movies создана
+
+Добавлен: Матрица
+Добавлен: Начало
+Добавлен: Крестный отец
+Добавлен: Темный рыцарь
+=== Все фильмы ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+ID: 2, Название: Начало, Жанр: sci-fi, Год: 2010
+ID: 3, Название: Крестный отец, Жанр: crime, Год: 1972
+ID: 4, Название: Темный рыцарь, Жанр: action, Год: 2008
+
+=== Поиск по названию 'Матрица' ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+
+=== Поиск по году (1999) ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+
+=== Поиск по жанру (sci-fi) ===
+ID: 1, Название: Матрица, Жанр: sci-fi, Год: 1999
+ID: 2, Название: Начало, Жанр: sci-fi, Год: 2010
+
+=== Обновление фильма ===
+Обновлено записей: 1
+ID: 1, Название: Матрица (Обновлено), Жанр: sci-fi, Год: 1999
+ID: 2, Название: Начало, Жанр: sci-fi, Год: 2010
+ID: 3, Название: Крестный отец, Жанр: crime, Год: 1972
+ID: 4, Название: Темный рыцарь, Жанр: action, Год: 2008
+
+=== Удаление фильма ===
+Удалено записей: 1
+ID: 1, Название: Матрица (Обновлено), Жанр: sci-fi, Год: 1999
+ID: 3, Название: Крестный отец, Жанр: crime, Год: 1972
+ID: 4, Название: Темный рыцарь, Жанр: action, Год: 2008
+
+Process finished with exit code 0
